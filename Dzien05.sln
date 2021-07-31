@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlikiFoldery", "PlikiFolder
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoToZaPlik", "CoToZaPlik\CoToZaPlik.csproj", "{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StooqParser", "StooqParser\StooqParser.csproj", "{950ECB33-5F10-45F8-A688-2C5181CDA2F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950ECB33-5F10-45F8-A688-2C5181CDA2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950ECB33-5F10-45F8-A688-2C5181CDA2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950ECB33-5F10-45F8-A688-2C5181CDA2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950ECB33-5F10-45F8-A688-2C5181CDA2F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
