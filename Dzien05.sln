@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wyjatki", "Wyjatki\Wyjatki.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlikiFoldery", "PlikiFoldery\PlikiFoldery.csproj", "{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoToZaPlik", "CoToZaPlik\CoToZaPlik.csproj", "{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CDCDD1-1816-4871-B8A8-4F86CDE75C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
