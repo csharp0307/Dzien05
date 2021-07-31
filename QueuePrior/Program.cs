@@ -31,7 +31,7 @@ namespace QueuePrior
 
             public void Enqueqe(Customer customer)
             {
-                customer.Id = Size + 1;
+                customer.Id = Size;
                 customers.Add(customer);
             }
 
@@ -40,7 +40,9 @@ namespace QueuePrior
                 Customer c = customers.OrderByDescending(x => x.Priority).ThenBy(x => x.Id).First();
                 if (c != null)
                 {
-                    customers.Remove(c);
+                    customers.RemoveAt(c.Id);
+                    int index = 0;
+                    customers.ForEach(x => { x.Id = index++; }); 
                 }
                 return c;
             }
