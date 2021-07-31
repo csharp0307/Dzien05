@@ -11,21 +11,40 @@ namespace Strumienie
     {
         static void Main(string[] args)
         {
-            StreamWriter sw = new StreamWriter(@"c:\tmp\test.txt");
-            sw.AutoFlush = false;
-            for (int i = 1; i <= 10; i++)
+            StreamWriter sw = null;
+            try
             {
-                sw.WriteLine($"Linia nr {i}");
+                sw = new StreamWriter(@"c:\tmp\test.txt");
+                sw.AutoFlush = false;
+                for (int i = 1; i <= 10; i++)
+                {
+                    sw.WriteLine($"Linia nr {i}");
+                }
+                sw.Flush();
+            } catch (IOException exc)
+            {
+                Console.WriteLine(exc.Message);
             }
-            sw.Flush();
-            sw.Close();
-
-            // resource manager - using
-            using (StreamWriter sw1 = new StreamWriter(@"c:\tmp\test1.txt"))
+            finally
             {
-                sw1.WriteLine("Dodatkowa linia");
-                //sw1.Close(); - niepotrzebna
-            } // -- using sam zamknie strumień
+                if (sw!=null) 
+                    sw.Close();
+            }
+
+
+
+            try
+            {
+                // resource manager - using
+                using (StreamWriter sw1 = new StreamWriter(@"c:\tmp\test1.txt"))
+                {
+                    sw1.WriteLine("Dodatkowa linia");
+                    //sw1.Close(); - niepotrzebna
+                } // -- using sam zamknie strumień
+            } catch (Exception exc)
+            {
+
+            }
 
             // odczyt ze strumienia plikowego
             String s;

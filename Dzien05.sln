@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuePrior", "QueuePrior\Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strumienie", "Strumienie\Strumienie.csproj", "{308A934E-E9A2-4E45-A019-F3F95315392C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wyjatki", "Wyjatki\Wyjatki.csproj", "{531722C3-9A25-4442-9395-5B4DD061EF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlikiFoldery", "PlikiFoldery\PlikiFoldery.csproj", "{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{308A934E-E9A2-4E45-A019-F3F95315392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{308A934E-E9A2-4E45-A019-F3F95315392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{308A934E-E9A2-4E45-A019-F3F95315392C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531722C3-9A25-4442-9395-5B4DD061EF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531722C3-9A25-4442-9395-5B4DD061EF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531722C3-9A25-4442-9395-5B4DD061EF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531722C3-9A25-4442-9395-5B4DD061EF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC12D69E-4E31-40AF-8F87-F7F8D2ACB171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
